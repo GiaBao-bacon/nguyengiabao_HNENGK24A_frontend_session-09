@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./mana.css" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .main {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: space-between;
+      }
+
+      .header {
+        background-color: aqua;
+        height: 6%;
+        width: 100%;
+      }
+
+      .body {
+        display: flex;
+        height: 84%;
+        width: 100%;
+      }
+
+      .sidebar {
+        background-color: greenyellow;
+        width: 25%;
+      }
+
+      .content {
+        background-color: red;
+        width: 75%; 
+      }
+
+      .footer {
+        background-color: violet;
+        height: 6%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">Header</div>
+      <div class="body">
+        <div class="sidebar">Sidebar</div>
+        <div class="content">Content</div>
+      </div>
+      <div class="footer">Footer</div>
+    </div>
+  </body>
+</html>
